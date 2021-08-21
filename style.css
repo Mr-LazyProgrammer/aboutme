@@ -121,6 +121,23 @@ h5{
     padding-left: 3rem;
 }
 
+footer{
+    height: 40px;
+    border: 1px solid var(--color3);
+    border-radius: 10px;
+}
+
+footer p{
+    float: right;
+    padding-right: 2rem;
+    line-height: 40px;
+    color: white;
+}
+
+footer span{
+    color: var(--color4);
+}
+
 @media only screen and (max-width: 425px){
     body{
         padding: 1rem;
